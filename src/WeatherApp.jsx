@@ -22,8 +22,6 @@ export default function WeatherApp(){
             <h2>Weatherly</h2>
             <SearchBox updateInfo={updateInfo} />
             <InfoBox info={weatherInfo} />
-
-            {/* 👇 Footer with your name */}
             <footer style={{
                 marginTop: "50px",
                 fontSize: "14px",

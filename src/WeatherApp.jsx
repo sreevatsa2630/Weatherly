@@ -18,10 +18,19 @@ export default function WeatherApp(){
     }
 
     return (
-        <div style={{textAlign: "center"}}>
+        <div style={{ textAlign: "center" }}>
             <h2>Weatherly</h2>
-            <SearchBox updateInfo={updateInfo}/>
-            <InfoBox info={weatherInfo}/>
+            <SearchBox updateInfo={updateInfo} />
+            <InfoBox info={weatherInfo} />
+
+            {/* 👇 Footer with your name */}
+            <footer style={{
+                marginTop: "50px",
+                fontSize: "14px",
+                color: "black"
+            }}>
+                © 2025 Sreevatsa Kulkarni | Weatherly
+            </footer>
         </div>
     );
 }
